@@ -123,11 +123,23 @@ document.getElementById('demo').innerHTML=text.toUpperCase();
 </body>
  -->
 
-<script>
+<!-- <script>
     const games=["cricket", "hockey", "football"];
     document.getElementById('demo').innerHTML=games;
     games.pop();
     document.getElementById('demo').innerHTML=games;
+</script> -->
+
+<script>
+const numbers = [45, 4, 9, 16, 25];
+
+let txt = "";
+numbers.forEach(myFunction);
+document.getElementById("demo").innerHTML = txt;
+
+function myFunction(value, index, array) {
+  txt += value + "<br>"; 
+}
 </script>
 
 
