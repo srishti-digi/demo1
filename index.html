@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="index.js"></script>
 </head>
 <body>
 <!-- <p id="demo"> It can change the content</p>
@@ -17,16 +18,22 @@
 <button type="button" onclick="document.getElementById('demo').style.display='none' ">Click on me</button>
 </body> -->
 
-<body>
+<!-- <body>
     <p id="demo">script tag in body</p>
-    <button type="button" onclick="myFunction()">Click on me</button>
+    <button type="button" onclick="myFunction()">Click on me</button> -->
 
-<script>
+<!-- <script>
     function myFunction(){
         document.getElementById('demo').innerHTML="Para changed"
     }
-</script>
+</script> -->
 
+
+ <p id="demo"></p>
+<script>
+    const x=3;
+    document.getElementById('demo').innerHTML=x;
+</script>
 
 </body>
 
