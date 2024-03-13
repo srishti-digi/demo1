@@ -34,7 +34,7 @@
     const x=3;
     document.getElementById('demo').innerHTML=x;
 </script> -->
-<p id="demo">function in js</p>
+<p id="demo"> object in js</p>
 
 <!-- <script>
     
@@ -66,12 +66,20 @@ document.getElementById('demo')="lastname"; -->
     const cars=['bmw', 'volvo', 'audi'];
     console.log(cars);
 </script> -->
-<script>
+<!-- <script>
 function myFun(a1,a2){
     return a1+a2;
 }
 let result=myFun(2,4);
 document.getElementById('demo').innerHTML=result;
+
+</script> -->
+<script>
+    const car={
+        name:"audi",
+        color:"white"
+    }
+document.getElementById('demo').innerHTML="the color of car is " +  car.color;
 
 </script>
 
