@@ -34,7 +34,8 @@
     const x=3;
     document.getElementById('demo').innerHTML=x;
 </script> -->
-<p id="demo"> object in js</p>
+<p id="demo"> event in js</p>
+<button onclick="myFun()"> Click it</button>
 
 <!-- <script>
     
@@ -74,13 +75,18 @@ let result=myFun(2,4);
 document.getElementById('demo').innerHTML=result;
 
 </script> -->
-<script>
+<!-- <script>
     const car={
         name:"audi",
         color:"white"
     }
 document.getElementById('demo').innerHTML="the color of car is " +  car.color;
 
+</script> -->
+<script>
+    function myFun(){
+        document.getElementById('demo').innerHTML=Date();
+    }
 </script>
 
 
