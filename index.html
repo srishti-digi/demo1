@@ -131,17 +131,16 @@ document.getElementById('demo').innerHTML=text.toUpperCase();
 </script> -->
 
 <script>
-const numbers = [45, 4, 9, 16, 25];
-
-let txt = "";
-numbers.forEach(myFunction);
-document.getElementById("demo").innerHTML = txt;
-
-function myFunction(value, index, array) {
-  txt += value + "<br>"; 
-}
-</script>
-
+    const numbers = [45, 4, 9, 16, 25];
+    const over18 = numbers.filter(myFunction);
+    
+    document.getElementById("demo").innerHTML = over18;
+    
+    function myFunction(value, index, array) {
+      return value > 18;
+    }
+    </script>
+    
 
 
 
